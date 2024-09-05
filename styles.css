@@ -92,3 +92,42 @@ p#friend-message {
 p#friend-message.show-message {
     color: #333;
 }
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+p {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.button-container {
+    margin: 20px 0;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#yes-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+#no-button {
+    background-color: #f44336; /* Red */
+    color: white;
+}
