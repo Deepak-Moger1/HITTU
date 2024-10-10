@@ -1,6 +1,6 @@
 function showMessage() {
     const message = document.getElementById('friend-message');
-    message.textContent = "Y dint u keep at birthday video ajjii";
+    message.textContent = "Happiest birthday Hittu";
     message.classList.add('show-message');
 }
 document.getElementById('yes-button').addEventListener('click', function() {
